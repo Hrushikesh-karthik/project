@@ -17,7 +17,9 @@ step4
 on terminal run
 
 flask db init
+
 flask db migrate -m "Initial migration"
+
 flask db upgrade
 
 
